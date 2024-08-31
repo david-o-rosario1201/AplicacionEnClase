@@ -8,5 +8,5 @@ data class PrioridadEntitity(
     @PrimaryKey
     val prioridadId: Int? = null,
     val descripcion: String = "",
-    val asunto: String = ""
+    val diasCompromiso: Int = 0
 )
