@@ -78,7 +78,6 @@ class MainActivity : ComponentActivity() {
     fun PrioridadScreen(){
         var descripcion by remember { mutableStateOf("") }
         var diasCompromiso by remember { mutableStateOf("") }
-        //var diasCompromiso by remember { mutableStateOf("") }
         var errorMessage: String? by remember { mutableStateOf(null) }
         val scope = rememberCoroutineScope()
 
